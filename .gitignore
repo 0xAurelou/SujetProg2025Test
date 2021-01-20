@@ -1,6 +1,16 @@
 Common IntelliJ Platform excludes
 
+# Binaries
+ bin
+obj
+#
+# # Rider
+.idea
+*.userprefs
 
+*.json
+*.dll
+*.idea
 *.pdb
 # User specific
  **/.idea/**/workspace.xml
