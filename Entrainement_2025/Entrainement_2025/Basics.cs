@@ -81,7 +81,7 @@ namespace Basics
             return max;
         }
 
-        public static int hourglassSum(int[][] arr)
+        public static int XWingPosition(int[][] arr)
         {
             int R = 6;
             int C = 6;
