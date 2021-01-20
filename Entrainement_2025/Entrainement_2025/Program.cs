@@ -7,7 +7,8 @@ namespace Entrainement_2025
     {
         static void Main(string[] args)
         {
-            
+            string s = "Qqqqqfuhe";
+            Console.WriteLine(Basics.Basics.RotN(s));
         }
     }
 }
