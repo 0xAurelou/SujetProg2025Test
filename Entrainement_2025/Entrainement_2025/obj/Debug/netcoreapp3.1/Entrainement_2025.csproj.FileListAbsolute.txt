@@ -1,0 +1,13 @@
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/obj/Debug/netcoreapp3.1/Entrainement_2025.csprojAssemblyReference.cache
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/obj/Debug/netcoreapp3.1/Entrainement_2025.AssemblyInfoInputs.cache
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/obj/Debug/netcoreapp3.1/Entrainement_2025.AssemblyInfo.cs
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/obj/Debug/netcoreapp3.1/Entrainement_2025.csproj.CoreCompileInputs.cache
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/bin/Debug/netcoreapp3.1/Entrainement_2025
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/bin/Debug/netcoreapp3.1/Entrainement_2025.deps.json
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/bin/Debug/netcoreapp3.1/Entrainement_2025.runtimeconfig.json
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/bin/Debug/netcoreapp3.1/Entrainement_2025.runtimeconfig.dev.json
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/bin/Debug/netcoreapp3.1/Entrainement_2025.dll
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/bin/Debug/netcoreapp3.1/Entrainement_2025.pdb
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/obj/Debug/netcoreapp3.1/Entrainement_2025.dll
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/obj/Debug/netcoreapp3.1/Entrainement_2025.pdb
+/home/aurelien/Bureau/SujetProg2025Test/Entrainement_2025/Entrainement_2025/obj/Debug/netcoreapp3.1/Entrainement_2025.genruntimeconfig.cache
