@@ -46,6 +46,7 @@ namespace Basics
             {
                 c = (char) ((c - '0' + key) % 10 + '0');
             }
+
             return c;
         }
 
