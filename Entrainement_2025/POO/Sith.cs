@@ -38,7 +38,8 @@ namespace POO
                 if (Attack >  entity.Hp )
                 {
                     IsKo = true;
-                    Console.WriteLine("We killed this entity");
+                    Hp = 0;
+                    Console.WriteLine($"We killed this {entity.Type}");
                     Escouade = entity.Escouade;
                     entity.Escouade = POO.Stormp.Stormtroopers.None;
                 }

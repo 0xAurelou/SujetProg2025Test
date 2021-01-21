@@ -1,5 +1,5 @@
 using System;
-using static POO.POO.Stormp.Stormtroopers;
+using static POO.Stormp.Stormtroopers;
 
 namespace POO
 {
@@ -93,6 +93,7 @@ namespace POO
             if (count >= perso.hp)
             {
                 IsKo = true;
+                perso.hp = 0;
                 Console.WriteLine("Ono our entity is ko");
                 return perso;
             }

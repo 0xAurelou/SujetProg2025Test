@@ -16,26 +16,28 @@ namespace Battle
                     Random rnd = new Random();
                     int loto = rnd.Next(1, 4);
                     if (loto == 1)
-                        test1.Hurt(test1);
+                        test1.Hurt(test);
+                    Console.WriteLine();
+                    Console.WriteLine($"{test.Name} ");
                     if (loto == 2)
                         test1.GetHeal(test1);
                     Console.WriteLine("Tour Du mechant");
                     Random rnd1 = new Random();
                     int loto1 = rnd1.Next(1, 3);
                     if (loto1 == 1)
-                        test.Hurt(test);
+                        test.Hurt(test1);
                     Console.WriteLine($"{test.Hp} left {test.Name}");
                     Console.WriteLine($"{test1.Hp} left {test1.Name}");
                 }
 
                 if (test.IsKo1)
                 {
-                    Console.WriteLine($"{test.Name} won the battle");
+                    Console.WriteLine($"{test1.Name} won the battle");
                 }
 
                 if (test1.IsKo1)
                 {
-                    Console.WriteLine($"{test1.Name} won the battle");
+                    Console.WriteLine($"{test.Name} won the battle");
                 }
 
             }
