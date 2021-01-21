@@ -6,12 +6,12 @@ using POO;
 
 namespace POO
 {
-    class POO
+    public class POO
     {
 
         public class Stormp
         {
-            internal enum Stormtroopers // all block types we can have
+            public enum Stormtroopers // all block types we can have
             {
                 None,
                 White,
