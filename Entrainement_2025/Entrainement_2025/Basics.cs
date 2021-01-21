@@ -34,19 +34,29 @@ namespace Basics
 
         public static char Rotchar( char c, int key)
         {
+            int keyLetter = key % 26;
+            if (keyLetter < 0)
+            {
+                keyLetter += 26;
+            }
+            int keyNumber = key % 10;
+            if (keyNumber < 0)
+            {
+                keyNumber += 10;
+            }
+
             if (c >= 'a' && c <= 'z')
             {
-                c = (char) ((c - 'a' + key) % 26 +'a');
+                c = (char) ((c - 'a' + keyLetter) % 26 +'a');
             }
             if (c >= 'A' && c <= 'Z')
             {
-                c = (char) ((c - 'A' + key) % 26 + 'A');
+                c = (char) ((c - 'A' + keyLetter) % 26 + 'A');
             }
             if (c >= '0' && c <= '9')
             {
-                c = (char) ((c - '0' + key) % 10 + '0');
+                c = (char) ((c - '0' + keyNumber) % 10 + '0');
             }
-
             return c;
         }
 
