@@ -44,7 +44,23 @@ namespace POO
                     {
                         Hp += 5;
                     }
+
+                    Hp += Heal;
                     Console.WriteLine($"{perso.Name} has now {hp} hp");
+                }
+            }
+            public void Hurt(Entity entity)
+            {
+                if (Attack >  entity.Hp )
+                {
+                    IsKo = true;
+                    Console.WriteLine("We killed this entity");
+                    Escouade = entity.Escouade;
+                    entity.Escouade = POO.Stormp.Stormtroopers.None;
+                }
+                else
+                {
+                    entity.Hp -= Attack;
                 }
             }
         }

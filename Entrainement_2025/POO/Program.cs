@@ -7,13 +7,16 @@ namespace POO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            BadGuys.Sith Palpatine = new BadGuys.Sith("Palpatine", PersoType.SITH, 1000, Weapon.LightSaber,
-                POO.Stormp.Stormtroopers.None, 500);
-            Palpatine.WhoAmI();
-            Palpatine.Describe();
-            Palpatine.GetHurt(999,Palpatine);
-            Console.WriteLine(Palpatine.Hp);
+            {
+                GoodGuys.Jedi test3 =  new GoodGuys.Jedi("Ewok", PersoType.EWOK, 200, Weapon.Spears, 
+                    POO.Stormp.Stormtroopers.Blue, 70, 10);
+
+                BadGuys.Sith test2 = new BadGuys.Sith("StormTrooper", PersoType.STORMTROOPER, 100, Weapon.Blaster,
+                    POO.Stormp.Stormtroopers.Green, 40);
+                
+                Battle.Battle.Fight(test2,test3);
+
+            }
         }
     }
 }
